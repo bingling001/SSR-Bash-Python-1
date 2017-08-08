@@ -59,8 +59,8 @@ fi
 
 #Install SSR and SSR-Bash
 cd /usr/local
-git clone https://github.com/dinsblog/shadowsocksr.git
-git clone https://github.com/aihoom/SSR-Bash-Python.git
+git clone https://github.com/bingling001/shadowsocksr-1.git
+git clone https://github.com/bingling001/SSR-Bash-Python-1.git
 cd /usr/local/shadowsocksr
 bash initcfg.sh
 
@@ -139,7 +139,7 @@ systemctl enable iptables.service
 fi
 
 #Install SSR-Bash Background
-wget -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/aihoom/SSR-Bash-Python/master/ssr
+wget -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/bingling001/SSR-Bash-Python-1/master/ssr
 chmod +x /usr/local/bin/ssr
 
 #Modify ShadowsocksR API
